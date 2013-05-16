@@ -1,4 +1,4 @@
-# Middleman Dotenv [![Gem Version](https://badge.fury.io/rb/middleman-dotenv.png)][gem] [![Build Status](https://travis-ci.org/karlfreeman/middleman-dotenv.png?branch=feature/3-1-rewrite)][travis] [![Dependency Status](https://gemnasium.com/karlfreeman/middleman-dotenv.png?travis)][gemnasium] [![Code Climate](https://codeclimate.com/github/karlfreeman/middleman-dotenv.png)][codeclimate]
+# Middleman Dotenv [![Gem Version](https://badge.fury.io/rb/middleman-dotenv.png)][gem] [![Build Status](https://travis-ci.org/karlfreeman/middleman-dotenv.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/karlfreeman/middleman-dotenv.png?travis)][gemnasium] [![Code Climate](https://codeclimate.com/github/karlfreeman/middleman-dotenv.png)][codeclimate]
 
 [gem]: https://rubygems.org/gems/middleman-dotenv
 [travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
