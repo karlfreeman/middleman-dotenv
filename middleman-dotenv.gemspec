@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Karl Freeman"]
   s.email       = ["karlfreeman@gmail.com"]
   s.homepage    = "https://github.com/karlfreeman/middleman-dotenv"
-  s.summary     = %q{}
-  s.description = %q{}
+  s.summary     = %q{Dotenv for Middleman}
+  s.description = %q{Dotenv for Middleman}
 
   s.files         = `git ls-files -z`.split("\0")
   s.test_files    = `git ls-files -z -- {fixtures,features}/*`.split("\0")
