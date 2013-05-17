@@ -1,11 +1,6 @@
-# Middleman Dotenv [![Gem Version](https://badge.fury.io/rb/middleman-dotenv.png)][gem] [![Build Status](https://travis-ci.org/karlfreeman/middleman-dotenv.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/karlfreeman/middleman-dotenv.png?travis)][gemnasium] [![Code Climate](https://codeclimate.com/github/karlfreeman/middleman-dotenv.png)][codeclimate]
+# Middleman Dotenv
 
-[gem]: https://rubygems.org/gems/middleman-dotenv
-[travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
-[gemnasium]: https://gemnasium.com/karlfreeman/middleman-dotenv
-[codeclimate]: https://codeclimate.com/github/karlfreeman/middleman-dotenv
-
-[Dotenv](dotenv) for [Middleman](middleman)
+[Dotenv] for [Middleman]
 
 ## Installation
 
@@ -15,5 +10,17 @@ Add `middleman-dotenv` to your `Gemfile`, open your `config.rb` and add the foll
 activate :dotenv
 ```
 
+## Build & Dependency Status
+
+[![Gem Version](https://badge.fury.io/rb/middleman-dotenv.png)][gem]
+[![Build Status](https://travis-ci.org/karlfreeman/middleman-dotenv.png)][travis]
+[![Dependency Status](https://gemnasium.com/karlfreeman/middleman-dotenv.png?travis)][gemnasium]
+[![Code Quality](https://codeclimate.com/github/karlfreeman/middleman-dotenv.png)][codeclimate]
+
 [dotenv]: https://github.com/bkeepers/dotenv
-[middleman]: http://middlemanapp.com/
+[middleman]: http://middlemanapp.com
+[gem]: https://rubygems.org/gems/middleman-dotenv
+[travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
+[gemnasium]: https://gemnasium.com/karlfreeman/middleman-dotenv
+[coveralls]: https://coveralls.io/r/karlfreeman/middleman-dotenv
+[codeclimate]: https://codeclimate.com/github/karlfreeman/middleman-dotenv
