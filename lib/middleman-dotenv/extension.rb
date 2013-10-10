@@ -3,7 +3,7 @@ module Middleman
     class << self
       def registered(app, options_hash={})
 
-        env = options_hash[:env] ||= '.env'
+        env = options_hash[:env] || '.env'
 
         require 'dotenv'
         ::Dotenv.load File.join(Dir.pwd, env)
