@@ -8,8 +8,19 @@ Integrates [Dotenv][dotenv] into [Middleman][middleman]
 
 Add `middleman-dotenv` to your `Gemfile`, open your `config.rb` and add the following right at the top of the file
 
-```
+```ruby
 activate :dotenv
+```
+
+```ruby
+# Use environment specific .env files
+configure :development do
+  activate :dotenv, :env => '.env.development'
+end
+
+configure :build do
+  activate :dotenv, :env => '.env.build'
+end
 ```
 
 ## Badges
