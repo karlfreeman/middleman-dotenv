@@ -1,6 +1,6 @@
 # Middleman Dotenv
 
-Integrates [Dotenv](dotenv) into [Middleman](middleman)
+Integrates [Dotenv][dotenv] into [Middleman][middleman]
 
 ## Features / Usage Examples
 
