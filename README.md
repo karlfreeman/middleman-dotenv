@@ -25,10 +25,10 @@ end
 
 ## Badges
 
-[![Gem Version](https://badge.fury.io/rb/multi_purge.png)][gem]
-[![Build Status](https://travis-ci.org/karlfreeman/multi_purge.png)][travis]
-[![Code Quality](https://codeclimate.com/github/karlfreeman/multi_purge.png)][codeclimate]
-[![Coverage Status](https://coveralls.io/repos/karlfreeman/multi_purge/badge.png?branch=master)][coveralls]
+[![Gem Version](https://badge.fury.io/rb/middleman-dotenv.png)][gem]
+[![Build Status](https://travis-ci.org/karlfreeman/middleman-dotenv.png)][travis]
+[![Code Quality](https://codeclimate.com/github/karlfreeman/middleman-dotenv.png)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/karlfreeman/middleman-dotenv/badge.png?branch=master)][coveralls]
 [![Gittip](http://img.shields.io/gittip/karlfreeman.png)][gittip]
 
 ## Supported Ruby Versions
@@ -43,10 +43,10 @@ implementations:
 
 # Credits
 
-[gem]: https://rubygems.org/gems/multi_purge
-[travis]: http://travis-ci.org/karlfreeman/multi_purge
-[coveralls]: https://coveralls.io/r/karlfreeman/multi_purge
-[codeclimate]: https://codeclimate.com/github/karlfreeman/multi_purge
+[gem]: https://rubygems.org/gems/middleman-dotenv
+[travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
+[coveralls]: https://coveralls.io/r/karlfreeman/middleman-dotenv
+[codeclimate]: https://codeclimate.com/github/karlfreeman/middleman-dotenv
 [gittip]: https://www.gittip.com/karlfreeman
 [jruby]: http://www.jruby.org
 [rubinius]: http://rubini.us
