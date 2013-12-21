@@ -9,11 +9,12 @@ Integrates [Dotenv][dotenv] into [Middleman][middleman]
 Add `middleman-dotenv` to your `Gemfile`, open your `config.rb` and add the following right at the top of the file
 
 ```ruby
+# Use's .env in root
 activate :dotenv
 ```
 
 ```ruby
-# Use environment specific .env files
+# Or use environment specific .env files
 configure :development do
   activate :dotenv, :env => '.env.development'
 end
