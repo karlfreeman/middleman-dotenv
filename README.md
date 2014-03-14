@@ -11,14 +11,14 @@ gem 'middleman-dotenv', '~> 1.0'
 Open your `config.rb` and add the following right at the top of the file
 
 ```ruby
-# Use's .env in root
+# Uses .env in the root of the project
 activate :dotenv
 ```
 
 ## Features / Usage Examples
 
 ```ruby
-# Or use environment specific .env files
+# Specify environment specific .env files
 configure :development do
   activate :dotenv, env: '.env.development'
 end
@@ -46,9 +46,9 @@ implementations:
 - [JRuby][jruby]
 - [Rubinius][rubinius]
 
-[gem]: https://rubygems.org/gems/multi_mime
-[travis]: http://travis-ci.org/karlfreeman/multi_mime
-[codeclimate]: https://codeclimate.com/github/karlfreeman/multi_mime
+[gem]: https://rubygems.org/gems/middleman-dotenv
+[travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
+[codeclimate]: https://codeclimate.com/github/karlfreeman/middleman-dotenv
 [gittip]: https://www.gittip.com/karlfreeman/
 [jruby]: http://www.jruby.org
 [rubinius]: http://rubini.us
