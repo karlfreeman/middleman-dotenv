@@ -46,8 +46,6 @@ implementations:
 - [JRuby][jruby]
 - [Rubinius][rubinius]
 
-# Credits
-
 [gem]: https://rubygems.org/gems/multi_mime
 [travis]: http://travis-ci.org/karlfreeman/multi_mime
 [codeclimate]: https://codeclimate.com/github/karlfreeman/multi_mime
