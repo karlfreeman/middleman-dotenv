@@ -33,6 +33,7 @@ end
 [![Gem Version](http://img.shields.io/gem/v/middleman-dotenv.svg)][gem]
 [![Build Status](http://img.shields.io/travis/karlfreeman/middleman-dotenv.svg)][travis]
 [![Code Quality](http://img.shields.io/codeclimate/github/karlfreeman/middleman-dotenv.svg)][codeclimate]
+[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/karlfreeman/middleman-dotenv.svg)][codeclimate]
 [![Gittip](http://img.shields.io/gittip/karlfreeman.svg)][gittip]
 
 ## Supported Ruby Versions
