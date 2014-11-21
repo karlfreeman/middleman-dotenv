@@ -1,15 +1,20 @@
 language: ruby
-cache: bundler
-bundler_args: --without development
+
 rvm:
   - ruby-head
-  - ruby
   - jruby-head
   - jruby
   - 2.1.0
   - 2.0.0
   - 1.9.3
   - rbx-2
+
+sudo: false
+
+cache: bundler
+
+before_script: bundle update
+
 matrix:
   fast_finish: true
   allow_failures:
@@ -18,7 +23,9 @@ matrix:
     - rvm: jruby-head
     - rvm: jruby
     - rvm: rbx-2
+
 notifications:
   email: false
+
 env:
   - CODECLIMATE_REPO_TOKEN=e5926063262b3a825cb9457b161e408788126431305069ae0d67d8179793e9e9
