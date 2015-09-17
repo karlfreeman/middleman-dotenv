@@ -1,15 +1,17 @@
 module Middleman
   module Dotenv
-    class << self
-      def registered(app, options_hash = {})
-        env = options_hash[:env] || '.env'
-        require 'dotenv' unless defined?(::Dotenv)
-        ::Dotenv.load File.join(Dir.pwd, env)
+    class Extension < ::Middleman::Extension
+      option :env, '.env', 'environment file name'
+
+      def initialize(app, options_hash = {}, &block)
+        super
+
+        env = options.env
+        ::Dotenv.load File.join(app.root, env)
         app.before do
-          ::Dotenv.load File.join(self.class.inst.root, env)
+          ::Dotenv.load File.join(self.root, env)
         end
       end
-      alias_method :included, :registered
     end
   end
 end
