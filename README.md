@@ -5,7 +5,7 @@ Integrates [Dotenv](https://github.com/bkeepers/dotenv) into [Middleman](http://
 ## Installation
 
 ```ruby
-gem 'middleman-dotenv', '~> 1.2'
+gem 'middleman-dotenv', '~> 2.0'
 ```
 
 Open your `config.rb` and add the following right at the top of the file
