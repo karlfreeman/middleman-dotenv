@@ -1,6 +1,7 @@
 require 'middleman-core'
 
 ::Middleman::Extensions.register(:dotenv) do
+  require 'dotenv'
   require 'middleman-dotenv/extension'
-  ::Middleman::Dotenv
+  ::Middleman::Dotenv::Extension
 end
