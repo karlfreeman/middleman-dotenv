@@ -31,10 +31,9 @@ end
 ## Badges
 
 [![Gem Version](http://img.shields.io/gem/v/middleman-dotenv.svg)][gem]
-[![Build Status](http://img.shields.io/travis/karlfreeman/middleman-dotenv.svg)][travis]
-[![Code Quality](http://img.shields.io/codeclimate/github/karlfreeman/middleman-dotenv.svg)][codeclimate]
-[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/karlfreeman/middleman-dotenv.svg)][codeclimate]
-[![Gittip](http://img.shields.io/gittip/karlfreeman.svg)][gittip]
+[![Build Status](http://img.shields.io/travis/middleman-contrib/middleman-dotenv.svg)][travis]
+[![Code Quality](http://img.shields.io/codeclimate/github/middleman-contrib/middleman-dotenv.svg)][codeclimate]
+[![Code Coverage](http://img.shields.io/codeclimate/coverage/github/middleman-contrib/middleman-dotenv.svg)][codeclimate]
 
 ## Supported Ruby Versions
 
@@ -49,8 +48,7 @@ implementations:
 - [Rubinius][rubinius]
 
 [gem]: https://rubygems.org/gems/middleman-dotenv
-[travis]: http://travis-ci.org/karlfreeman/middleman-dotenv
-[codeclimate]: https://codeclimate.com/github/karlfreeman/middleman-dotenv
-[gittip]: https://www.gittip.com/karlfreeman/
+[travis]: http://travis-ci.org/middleman-contrib/middleman-dotenv
+[codeclimate]: https://codeclimate.com/github/middleman-contrib/middleman-dotenv
 [jruby]: http://www.jruby.org
 [rubinius]: http://rubini.us
